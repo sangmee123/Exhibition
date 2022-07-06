@@ -1,5 +1,7 @@
 * { margin: 0; padding: 0; }
 
+body { overflow-x: hidden; }
+
 .navbar {
     display: inline-block;
     width: 100%;
@@ -24,7 +26,7 @@
 .nav-link b { color:rgb(72, 99, 135); }
 
 .carousel-item img { 
-    height: 600px;
+    height: 550px;
 }
 
 .equipment {
@@ -60,8 +62,8 @@ li img {
     margin-top: 20px;
 } */
 
-/*테블릿, 모바일 사이즈*/
-@media screen and (max-width:990px) {
+/*테블릿*/
+@media screen and (max-width:1000px) {
     nav {
         width: 100%;
         height: 80px;
@@ -98,12 +100,13 @@ li img {
     }
 
     .carousel-item img { 
+        width: 100%;
         height: 305px;
     }
 
     ul {
         margin: 2%; 
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     /* footer {
@@ -117,8 +120,9 @@ li img {
     } */
 }
 
+/*모바일 사이즈*/
 @media screen and (max-width:640px) {
-     nav {
+    nav {
         width: 100%;
         height: 80px;
     }
@@ -154,13 +158,12 @@ li img {
     }
 
     .carousel-item img { 
-        height: 305px;
+        width: 100%;
+        height: 250px;
     }
 
     .equipment ul {
         margin: 2%; 
-        padding: 40px 0;
+        padding: 20px 0;
     }
-
-    
 } 
