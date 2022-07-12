@@ -119,7 +119,8 @@ body { overflow-x: hidden; }
     }
     
     .middle {
-        margin: 15%;
+        text-align: center;
+      
     }
     .middle img {
         width: 60%;
