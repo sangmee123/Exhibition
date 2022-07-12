@@ -73,7 +73,7 @@ body { overflow-x: hidden; }
 .counter {
     display: inline-block;
     width: 250px;
-    margin-left: 3%;
+    margin-left: 15%;
 }
 
 .left {
