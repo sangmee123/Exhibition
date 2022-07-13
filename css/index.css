@@ -1,6 +1,9 @@
 * { margin: 0; padding: 0; }
 
-body { overflow-x: hidden; }
+body { 
+    overflow-x: hidden; 
+    height: 100%;
+}
 
 .navbar {
     display: inline-block;
@@ -12,8 +15,12 @@ body { overflow-x: hidden; }
     border-bottom: 1px solid rgb(206, 204, 204);
 }
 
+.navbar-brand {
+    margin-left: 3%;
+}
+
 #logo { 
-    height: 65px;
+    height: 60px;
     margin-left: 100%;
 }
 
@@ -27,10 +34,15 @@ body { overflow-x: hidden; }
 .nav-link b { color:rgb(72, 99, 135); }
 
 .carousel-item img { 
-    height: 550px;
+    height: 700px;
 }
 .carousel-caption h1 {
-   margin-bottom: 25%;
+    width: 800px;
+    font-weight: bold;
+    font-size: 52px;
+    color: rgb(240, 107, 59);
+    margin-right: 70%;
+    margin-bottom: 15%;
 }
 
 .equipment {
@@ -54,7 +66,8 @@ body { overflow-x: hidden; }
 }
 .equipment li a { text-decoration: none; }
 .equipment li img { 
-    width: 100%;
+    width: 100%; 
+    height: 350px;
     float: left;
     margin-bottom: 5%;
 }
@@ -72,17 +85,95 @@ body { overflow-x: hidden; }
 
 .counter {
     display: inline-block;
-    width: 250px;
-    margin-left: 15%;
+    width: 200px;
+    margin-top: 8px;
 }
 
 .left {
     float: left;
-    margin-right: 170px;
+    margin-right: 10px;
 }
 
-#blackLine { 
-    border: 1px solid black;
+.today { color: red; }
+
+#body-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#body-content {
+    margin-top: 100px;
+    padding-bottom: 200px; /* footer의 높이 */
+}
+
+footer { 
+    width: 100%;
+    height: 200px; /* footer의 높이 */
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+    color: #999;
+    background-color: #122535;
+}footer h1 { 
+    margin-left: 45%;
+}
+
+.footer {
+    border-bottom: 1px solid rgb(122, 124, 134);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.font { 
+    font-size: 12px;
+}
+
+#address { 
+    margin-left: 44%;
+    margin-top: 20px; 
+}
+
+#info { 
+    display: inline-block;
+    margin-left: 44%;
+    margin-right: 2px;
+}
+
+#tel { margin-left: 44%; }
+
+
+/*M_데스크탑*/
+@media screen and (max-width: 1980px) {
+    .carousel-caption h1 {
+        width: 650px;
+        font-weight: bold;
+        font-size: 45px;
+        color: rgb(240, 107, 59);
+        margin-right: 80%;
+        margin-bottom: 20%;
+    }
+
+    .carousel-item img { 
+        height: 600px;
+    }
+
+    #body-wrapper {
+        min-height: 100%;
+        position: relative;
+    }
+    
+    #body-content {
+        margin-top: 100px;
+        padding-bottom: 200px; /* footer의 높이 */
+    }
+    
+    footer { 
+        width: 100%;
+        height: 200px; /* footer의 높이 */
+        position: absolute;  
+        bottom: 0;
+        left: 0;
+    }
 }
 
 /*테블릿*/
@@ -102,7 +193,7 @@ body { overflow-x: hidden; }
     }
 
     #logo {
-        height: 63px;
+        height: 60px;
         margin-left: 20%;
     }
 
@@ -128,10 +219,12 @@ body { overflow-x: hidden; }
 
     .carousel-item img { 
         width: 100%;
-        height: 305px;
+        height: 300px;
     }
     .carousel-caption h1 {
-        margin-bottom: 15%;
+        font-size: 30px;
+        color: rgb(240, 107, 59);
+        margin-bottom: 10%;
      }
 
     .equipment {
@@ -156,6 +249,7 @@ body { overflow-x: hidden; }
     .equipment li a { text-decoration: none; }
     .equipment li img { 
         width: 100%;
+        height: 200px;
         float: left;
         margin-bottom: 5%;
     }
@@ -176,6 +270,23 @@ body { overflow-x: hidden; }
         width: 250px;
         margin-left: 3%;
     }
+
+    footer h1 { 
+        margin-left: 40%;
+    }
+
+    #address { 
+        margin-left: 38%;
+        margin-top: 20px; 
+    }
+    
+    #info { 
+        display: inline-block;
+        margin-left: 38%;
+        margin-right: 2px;
+    }
+    
+    #tel { margin-left: 38%; }
 }
 
 /*모바일 사이즈*/
@@ -217,11 +328,15 @@ body { overflow-x: hidden; }
 
     .carousel-item img { 
         width: 100%;
-        height: 250px;
+        height: 270px;
     }
     .carousel-caption h1 {
-        margin-bottom: 28%;
-     }
+        font-weight: bold;
+        font-size: 23px;
+        color: rgb(240, 107, 59);   
+        margin-right: 20%;
+        margin-bottom: 20%;
+    }
 
     .title { font-size: 20px; }
 
@@ -246,6 +361,7 @@ body { overflow-x: hidden; }
     .equipment li a { text-decoration: none; }
     .equipment li img { 
         width: 100%;
+        height: 300px;
         float: left;
         margin-bottom: 5%;
     }
@@ -260,4 +376,31 @@ body { overflow-x: hidden; }
         color: black;
         padding-left: 9%;
     }
+
+    footer h1 { 
+        margin-left: 33%;
+    }
+    
+    .footer {
+        border-bottom: 1px solid rgb(122, 124, 134);
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .font { 
+        font-size: 12px;
+    }
+    
+    #address { 
+        margin-left: 28%;
+        margin-top: 20px; 
+    }
+    
+    #info { 
+        display: inline-block;
+        margin-left: 28%;
+        margin-right: 2px;
+    }
+    
+    #tel { margin-left: 28%; }
 } 
