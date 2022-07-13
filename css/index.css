@@ -41,7 +41,7 @@ body {
     font-weight: bold;
     font-size: 52px;
     color: rgb(240, 107, 59);
-    margin-right: 70%;
+    margin-left: -10%;
     margin-bottom: 15%;
 }
 
@@ -224,6 +224,7 @@ footer {
     .carousel-caption h1 {
         font-size: 30px;
         color: rgb(240, 107, 59);
+        margin-left: -25%;
         margin-bottom: 10%;
      }
 
@@ -334,8 +335,8 @@ footer {
         font-weight: bold;
         font-size: 23px;
         color: rgb(240, 107, 59);   
-        margin-right: 20%;
-        margin-bottom: 20%;
+        margin-left: -50%;
+        margin-bottom: 18%;
     }
 
     .title { font-size: 20px; }
