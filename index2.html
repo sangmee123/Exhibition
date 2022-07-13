@@ -18,20 +18,24 @@
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index1.html"><b>회사 소개</b></a>
-            <a class="nav-link active" href="#"><b>제품</b></a>
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index1.html"><b>회사 소개</b></a>
+          <a class="nav-link active" href="index2.html"><b>제품</b></a>
+           <!-- 카운터 모듈 -->  
+          <div class="counter">
+            <dt class="left">오늘 방문자 수</dt><p class="today"></p>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
     
     <div class="product">
       <img src="images/product.jpg">
@@ -39,19 +43,23 @@
 
    <img class="device" src="images/기기1.png">
     <img class="device" src="images/기기2.png"> 
-
+   
     <div id="body-wrapper">
       <div id="body-content"></div>
       <footer>
         <div class="footer">
           <h1>SOLIMATICS</h1>
         </div>
-        <p class="font" id="info">주식회사 솔리메틱스 대표: 함영국</p>
-        <p class="font" id="tel">TEL: 010-5365-9532</p>
-        <p></p>
+        <div class="info">
+          &nbsp 주식회사 솔리메틱스 대표: 함영국
+          <br class="hidden hidden2">&nbsp Address: 강원도 춘천시 강원대학길1, 보듬관 702호
+          <br class="hidden hidden3">&nbsp TEL: 010-5365-9532 &nbsp E-mail: yghahm@gmail.com
+        </div>
       </footer>
     </div>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
 </body>
 </html>

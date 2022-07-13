@@ -1,6 +1,9 @@
 * { margin: 0; padding: 0; }
 
-body { overflow-x: hidden; }
+body { 
+    overflow-x: hidden; 
+    height: 100%;
+}
 
 .navbar {
     display: inline-block;
@@ -8,22 +11,38 @@ body { overflow-x: hidden; }
     margin: 0 auto;
     position: sticky;
     top: 0px;
-    z-index: 2;
+    z-index: 1;
     border-bottom: 1px solid rgb(206, 204, 204);
 }
 
+.navbar-brand { margin-left: 15%; }
+
 #logo { 
-    height: 65px;
-    margin-left: 100px;
+    height: 60px;
+    margin-left: 100%;
 }
 
 .navbar-collapse {
-    margin-left: 10%; 
+    width: 500px;
+    margin-left: 20%; 
 }
 .nav-link { 
     margin-right: 100px; 
 }
 .nav-link b { color:rgb(72, 99, 135); }
+
+.counter {
+    display: inline-block;
+    width: 200px;
+    margin-top: 8px;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.today { color: red; }
 
 .middle {
     margin-top: 20px;
