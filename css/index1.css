@@ -59,7 +59,7 @@ body {
 
 #body-content {
     margin-top: 100px;
-    padding-bottom: 200px; /* footer의 높이 */
+    padding-bottom: 690px; /* footer의 높이 */
 }
 
 footer { 
@@ -161,7 +161,7 @@ footer {
         float: right;
         margin-right: 30px;
     }
-    
+
     .navbar-toggler {
         margin-right: 20px;
         margin-bottom: 5px;
@@ -185,7 +185,7 @@ footer {
     footer { 
         width: 100%;
         height: 220px; /* footer의 높이 */
-        position: absolute;  
+        position: absolute;    
         bottom: 0;
         left: 0;
         color: #999;
@@ -226,6 +226,7 @@ footer {
     }
 
     .nav-link {
+        width: 100%;
         background-color: white;
         line-height: 30px;
         margin-right: 0px;
@@ -254,12 +255,9 @@ footer {
         height: 63px;
         margin-left: 20px;
     }
-    
-    .navbar-collapse {
-        margin-left: 0;
-    }
 
     .nav-link {
+        width: 100%;
         background-color: white;
         line-height: 30px;
         margin-right: 0px;
@@ -268,19 +266,20 @@ footer {
         float: right;
         margin-right: 30px;
     }
-    .navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
+    .navbar-nav { 
+        width: 100%;
+        float: right; 
+    }.navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
     
     .navbar-toggler {
         margin-right: 20px;
         margin-bottom: 5px;
     }
 
-    .middle {
-        text-align: center;
-      
-    }
+    .middle { text-align: center; }
     .middle img {
         width: 60%;
+        margin-left: 20%;
         margin-bottom: 20px;
     }
 

@@ -44,6 +44,10 @@ body {
 
 .today { color: red; }
 
+.device {
+    height: 400px;
+}
+
 #body-wrapper {
     min-height: 100%;
     position: relative;
@@ -51,7 +55,7 @@ body {
 
 #body-content {
     margin-top: 100px;
-    padding-bottom: 200px; /* footer의 높이 */
+    padding-bottom: 300px; /* footer의 높이 */
 }
 
 footer { 
@@ -213,6 +217,7 @@ footer {
     }
 
     .nav-link {
+        width: 100%;
         background-color: white;
         line-height: 30px;
         margin-right: 0px;
@@ -246,6 +251,7 @@ footer {
     }
 
     .nav-link {
+        width: 100%;
         background-color: white;
         line-height: 30px;
         margin-right: 0px;
@@ -254,7 +260,11 @@ footer {
         float: right;
         margin-right: 30px;
     }
-    .navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
+
+    .navbar-nav { 
+        width: 100%;
+        float: right; 
+    }.navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
     
     .navbar-toggler {
         margin-right: 20px;
