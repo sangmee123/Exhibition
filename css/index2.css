@@ -44,8 +44,19 @@ body {
 
 .today { color: red; }
 
+.drill {
+    display: block;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .device {
-    height: 400px;
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #body-wrapper {
@@ -97,6 +108,20 @@ footer {
     .navbar-brand { margin-left: 5%; }
 
     .navbar-collapse { margin-left: 20%; }
+
+    .drill { 
+        display: block;    
+        width: 38%; 
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .device {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     #body-wrapper {
         min-height: 100%;
@@ -173,6 +198,20 @@ footer {
         margin-left: 3%;
     }
 
+    .drill { 
+        display: block;    
+        width: 50%; 
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .device {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     footer { 
         width: 100%;
         height: 220px; /* footer의 높이 */
@@ -227,6 +266,20 @@ footer {
         margin-right: 30px;
     }
     .navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
+
+    .drill { 
+        display: block;    
+        width: 60%; 
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .device {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /*모바일 사이즈*/
@@ -269,6 +322,21 @@ footer {
     .navbar-toggler {
         margin-right: 20px;
         margin-bottom: 5px;
+    }
+
+    .drill { 
+        display: block;    
+        width: 85%; 
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .device {
+        display: block;  
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
     }
   
     #body-wrapper {
