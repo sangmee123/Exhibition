@@ -409,7 +409,7 @@ footer {
     .carousel-caption h1 {
         font-size: 23px;
         color: rgb(240, 107, 59);   
-        margin-left: -50%;
+        margin-left: -75%;
         margin-bottom: 18%;
     }
 
@@ -466,7 +466,7 @@ footer {
         color: #999;
         background-color: #122535;
     }footer h1 { 
-        margin-left: 33%;
+        margin-left: 27%;
     }
     
     .footer {
@@ -483,7 +483,7 @@ footer {
     .info {
         margin-top: 20px;
         margin-left: 15%;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
     }
 
