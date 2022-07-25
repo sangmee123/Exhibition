@@ -44,6 +44,22 @@ body {
 
 .today { color: red; }
 
+.introduce {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10%;
+}.introduce h4 {
+    width: 750px;
+}.introduce img {
+    width: 65%;
+    float: right;
+    margin-top: -660px;
+    margin-right: -140px;
+}
+li {
+    margin-top: 100px; 
+}
+
 .middle {
     margin-top: 20px;
     text-align: center;

@@ -44,20 +44,27 @@ body {
 
 .today { color: red; }
 
-.drill {
-    display: block;
-    width: 25%;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+.product {
+    margin-top: 100px;
+    margin-left: 20%;
+}.product h1 {
+    display: inline-block;
+    margin-bottom: 50px;
+}.product h3 {
+    margin-top: 20px;
 }
 
-.device {
-    display: block;
-    width: 15%;
-    margin-left: auto;
-    margin-right: auto;
+.drill {
+    width: 40%;
+    margin-top: 30px;
 }
+
+.Picture {
+    width: 23%;
+    margin-left: 100px;
+}
+
+.Picture1 { display: none; }
 
 #body-wrapper {
     min-height: 100%;
@@ -109,19 +116,29 @@ footer {
 
     .navbar-collapse { margin-left: 20%; }
 
-    .drill { 
-        display: block;    
-        width: 38%; 
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
+    .product {
+        margin-left: 12%;
+    }.product h1 {
+        display: inline-block;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }.product h4 {
+        font-size: 20px;
+    }.product h3 {
+        font-size: 25px;
+        margin-top: 20px;
     }
 
-    .device {
-        width: 20%;
-        margin-left: auto;
-        margin-right: auto;
+    .drill {
+        width: 50%;
+        margin-top: 30px;
     }
+
+    .Picture {
+        width: 28%;
+    }
+    
+    .Picture1 { display: none; }
 
     #body-wrapper {
         min-height: 100%;
@@ -130,7 +147,7 @@ footer {
     
     #body-content {
         margin-top: 100px;
-        padding-bottom: 200px; /* footer의 높이 */
+        padding-bottom: 350px; /* footer의 높이 */
     }
     
     footer { 
@@ -198,18 +215,35 @@ footer {
         margin-left: 3%;
     }
 
-    .drill { 
-        display: block;    
-        width: 50%; 
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
+    #body-content {
+        margin-top: 100px;
+        padding-bottom: 400px; /* footer의 높이 */
     }
 
-    .device {
-        width: 30%;
-        margin-left: auto;
-        margin-right: auto;
+    .product {
+        margin-left: 2%;
+    }.product h1 {
+        display: inline-block;
+        font-size: 35px;
+        margin-left: 2%;
+        margin-bottom: 40px;
+    }.product h4 {
+        margin-left: 2%;
+        font-size: 20px;
+    }.product h3 {
+        font-size: 23px;
+        margin-top: 30px;
+        margin-left: 2%;
+    }
+
+    .drill {
+        width: 63%;
+        margin-top: 30px;
+    }
+
+    .Picture {
+        width: 32%;
+        margin-left: 20px;
     }
 
     footer { 
@@ -267,19 +301,7 @@ footer {
     }
     .navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
 
-    .drill { 
-        display: block;    
-        width: 60%; 
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .device {
-        width: 35%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .Picture1 { display: none; }
 }
 
 /*모바일 사이즈*/
@@ -323,25 +345,44 @@ footer {
         margin-right: 20px;
         margin-bottom: 5px;
     }
-
-    .drill { 
-        display: block;    
-        width: 85%; 
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .device {
-        display: block;  
-        width: 45%;
-        margin-left: auto;
-        margin-right: auto;
-    }
   
+    .product {
+        margin-top: 50px;
+        margin-left: 3%;
+    }.product h1 {
+        display: inline-block;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }.product h4 {
+        font-size: 20px;
+    }.product h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .drill {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .Picture {
+        display: none;
+    }
+    .Picture1 {
+        display: inline-block;
+        width: 48%;
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+
     #body-wrapper {
         min-height: 100%;
         position: relative;
+    } 
+    
+    #body-content {
+        margin-top: 100px;
+        padding-bottom: 250px; /* footer의 높이 */
     }
 
     footer { 
@@ -360,11 +401,6 @@ footer {
         border-bottom: 1px solid rgb(122, 124, 134);
         width: 80%;
         margin: 0 auto;
-    }
-    
-    #body-content {
-        margin-top: 100px;
-        padding-bottom: 200px; /* footer의 높이 */
     }
 
     .info {
