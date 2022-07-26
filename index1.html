@@ -28,11 +28,17 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="index1.html"><b>회사 소개</b></a>
-            <a class="nav-link active" href="index2.html"><b>제품</b></a>
+            <div class="dropdown">
+              <span class="nav-link active dropbtn"><b>제품</b></span>
+              <div class="dropdown-content">
+                <a href="index2.html">천공 모니터링</a>
+                <a href="index2-1.html">천공작업 원격 텔레메틱스</a>
+              </div>
+            </div>
           </div>
              <!-- 카운터 모듈 -->  
              <div class="counter">
-              <dt class="left">오늘 방문자 수</dt><p class="today"></p>
+              <dt class="left">오늘 방문 횟수</dt><p class="today"></p>
           </div>
         </div>
       </div>
@@ -51,12 +57,6 @@
       </span>  
       <img id="bg" src="images/intro.png">
     </div>
-
-    <!-- <div class="middle">
-      <h2>특허</h2>
-      <img src="images/특허1.png">
-      <img src="images/특허2.png">
-    </div> -->
      
     <div id="body-wrapper">
       <div id="body-content"></div>

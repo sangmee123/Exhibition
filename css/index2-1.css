@@ -79,19 +79,19 @@ body {
     margin-left: 20%;
 }.product h1 {
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}.product h4 {
+    margin-bottom: 20px;
 }.product h3 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.drill {
-    width: 40%;
-    margin-top: 30px;
-}
+.drill { width: 50%; }
 
 .Picture {
-    width: 23%;
-    margin-left: 100px;
+    width: 29%;
+    margin-top: 5px;
+    margin-left: 15px;
 }
 
 .Picture1 { display: none; }
@@ -147,25 +147,26 @@ footer {
     .navbar-collapse { margin-left: 20%; }
 
     .product {
-        margin-left: 12%;
+        margin-left: 5%;
     }.product h1 {
         display: inline-block;
         font-size: 35px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }.product h4 {
         font-size: 20px;
     }.product h3 {
-        font-size: 25px;
+        font-size: 23px;
         margin-top: 20px;
     }
 
     .drill {
-        width: 50%;
-        margin-top: 30px;
+        width: 60%;
+        margin-top: 20px;
     }
 
     .Picture {
-        width: 28%;
+        width: 35%;
+        margin-top: 23px;
     }
     
     .Picture1 { display: none; }
@@ -251,29 +252,26 @@ footer {
     }
 
     .product {
-        margin-left: 2%;
+        margin-left: 4%;
     }.product h1 {
         display: inline-block;
         font-size: 35px;
-        margin-left: 2%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }.product h4 {
-        margin-left: 2%;
         font-size: 20px;
     }.product h3 {
         font-size: 23px;
-        margin-top: 30px;
-        margin-left: 2%;
+        margin-top: 20px;
     }
 
     .drill {
-        width: 63%;
-        margin-top: 30px;
+        width: 60%;
+        margin-top: 20px;
     }
 
     .Picture {
-        width: 32%;
-        margin-left: 20px;
+        width: 35%;
+        margin-left: 10px;
     }
 
     footer { 
@@ -332,6 +330,11 @@ footer {
     .navbar-nav a:hover { border-bottom: 5px solid rgb(19, 83, 179); }
 
     .Picture1 { display: none; }
+
+    .product h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
 
 /*모바일 사이즈*/
@@ -378,20 +381,20 @@ footer {
   
     .product {
         margin-top: 50px;
-        margin-left: 3%;
+        margin-left: 1%;
     }.product h1 {
         display: inline-block;
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 40px;
     }.product h4 {
-        font-size: 20px;
+        font-size: 18px;
     }.product h3 {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 20px;
     }
 
     .drill {
-        width: 95%;
+        width: 100%;
         margin-top: 10px;
     }
 
@@ -400,9 +403,8 @@ footer {
     }
     .Picture1 {
         display: inline-block;
-        width: 48%;
+        width: 49%;
         margin-top: 20px;
-        margin-left: 1%;
     }
 
     #body-wrapper {
