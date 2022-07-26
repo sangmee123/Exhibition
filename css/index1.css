@@ -366,25 +366,21 @@ footer {
         margin-bottom: 5px;
     }
 
-    .introduce h1 {
-        font-size: 25px;
+    .introduce { margin-left: 3%; }
+    .introduce h1 { 
+        font-size: 25px; 
+        margin-left: 10px;
     }
-    .introduce h4 {
-        width: 400px;
-    }
-    .introduce #bg {
-        width: 100%;
-        float: left;
-        margin-top: -550px;
-    }
-    li {
+    .introduce h4 li { 
+        width: 300px; 
         font-size: 15px;
         margin-top: 60px;
         margin-left: 10px; 
         color: white;
-    }
-    h2 { 
-        margin-left: 20px; 
+    }.introduce #bg {
+        width: 100%;
+        float: left;
+        margin-top: -550px;
     }
 
     #body-wrapper {
