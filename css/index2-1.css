@@ -94,7 +94,7 @@ body {
     margin-left: 15px;
 }
 
-.Picture1 { display: none; }
+.Picture1, .Picture2 { display: none; }
 
 #body-wrapper {
     min-height: 100%;
